@@ -3,7 +3,7 @@ $(function () {
   var App = {
 
     //TODO: Find a better way to set these from config.php
-    baseUrl : 'http://104.236.201.18/',
+    baseUrl : '',
     maxCharacters: 320,
     maxPostsPerPage : 5,
 
