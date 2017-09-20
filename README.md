@@ -21,7 +21,7 @@ Read More: [Live Updates in CodeIgniter with Socket.IO and Redis](http://ericter
 
 
 
-part_one -- The Setup
+## Part_one -- The Setup
 
 The front end of the application uses Twitter Bootstrap for styling and layout, jQuery for client-side interactivity, PHP and CodeIgniter for most of the functionality, and MySQL for data storage. This is a fairly common toolset that runs on most L/W/M/AMP-style environment stacks. The code available on GitHub has everything you need to run the app yourself, provided you have a web server, MySQL, and PHP 5.3 or greater.
 
@@ -38,4 +38,13 @@ $db['default']['password'] = 'yourdatabasepasswordhere';
 $db['default']['database'] = 'cisock'; //or use the database name you chose, if it is different
 Once that is done, you should be able to navigate your browser to the /part_one/ directory and see the login screen.
 
+### Database 
+
+username = india_dba
+password = 47u|(3y=I@k
+
+create user 'india_dba'@'localhost' identified by '47u|(3y=I@k';
+
+GRANT ALL PRIVILEGES ON * . * TO 'india_dba'@'localhost';
+FLUSH PRIVILEGES;
 
