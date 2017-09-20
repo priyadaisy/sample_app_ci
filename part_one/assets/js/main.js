@@ -3,7 +3,7 @@ $(function () {
   var App = {
 
     //TODO: Find a better way to set these from config.php
-    baseUrl : '/ci_sock/part_one/',
+    baseUrl : 'http:.104.236.201.18/',
     maxCharacters: 320,
     maxPostsPerPage : 5,
 
