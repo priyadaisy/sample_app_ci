@@ -17,3 +17,25 @@ A refactored version of part one.  It includes the changes from part 2, but also
 The user interface is unchanged, but when a message is posted by a user, any other user with the same team ID will instantly recieve the message and have it posted in the team messages list.  Admins will recieve messages from all users, regardless of team ID.  
 
 Read More: [Live Updates in CodeIgniter with Socket.IO and Redis](http://ericterpstra.com/2013/04/live-updates-in-codeigniter-with-socket-io-and-redis/)
+
+
+
+
+part_one -- The Setup
+
+The front end of the application uses Twitter Bootstrap for styling and layout, jQuery for client-side interactivity, PHP and CodeIgniter for most of the functionality, and MySQL for data storage. This is a fairly common toolset that runs on most L/W/M/AMP-style environment stacks. The code available on GitHub has everything you need to run the app yourself, provided you have a web server, MySQL, and PHP 5.3 or greater.
+
+You’ll need to create a database (preferably called ‘cisock’), and then import cisock.sql in the root of the ‘partOne’ folder in the repository. You can do this with the following command from the command line (be sure to change ‘yourusername’ and ‘/path/to/’ to match your local setup):
+
+mysql -u yourusername -p -h localhost cisock < /path/to/cisock.sql
+Once you’ve gotten the code checked out into your web root and the SQL imported, you’ll need to do some slight configuration before getting started. In ‘part_one/application/config/config.php’ you will need to change line 17 to reflect your local URL. If you simply cloned the project directly into your ‘localhost’ web root, then no changes will likely be needed. A similar fix is necessary in ‘part_one/assets/js/main.js’ line 6. The context root of your application goes here. Again, if you cloned to your web root, the default value should be fine. Ideally, the context root should only have to be configured in one place, but it is what it is for now.
+
+Secondly, the settings in ‘part_one/application/config/database.php’ must be set to reflect your local database configuration. The following entries are specific to your local environment:
+
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'yourdatabaseusernamehere';
+$db['default']['password'] = 'yourdatabasepasswordhere';
+$db['default']['database'] = 'cisock'; //or use the database name you chose, if it is different
+Once that is done, you should be able to navigate your browser to the /part_one/ directory and see the login screen.
+
+
