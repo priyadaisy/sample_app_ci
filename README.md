@@ -8,6 +8,7 @@ Read More: [A Sample CodeIgniter Application with Login and Session](http://eric
  
 ## Part Two
 Part Two
+Part Tworead
 These files allow the use of Redis as a storage medium for CodeIgniter's session data instead of a MySQL table.  The MY\_Session class overrides several methods in CodeIgniter's Session class so that persistent session data is stored and retrieved from Redis.
 
 Read More: [Use Redis instead of MySQL for CodeIgniter Session Data](http://ericterpstra.com/2013/03/use-redis-instead-of-mysql-for-codeigniter-session-data/)
