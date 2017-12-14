@@ -20,7 +20,7 @@ USE `cisock`;
 --
 -- Table structure for table `ci_sessions`
 --
-
+table new table new
 DROP TABLE IF EXISTS `ci_sessions`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
