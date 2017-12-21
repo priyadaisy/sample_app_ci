@@ -1,4 +1,4 @@
-## Sample CodeIgniter
+##  Sample CodeIgniter
 
 This is a very simple CRUD-like CodeIgniter project. It is similar to what you might find as a tutorial project on the [CI website][http://ellislab.com/codeigniter/user-guide/tutorial/index.html], or on [Nettuts][http://net.tutsplus.com/sessions/codeigniter-from-scratch/].  
 
