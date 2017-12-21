@@ -18,3 +18,5 @@ new index file
   new index file
   new index file
   creating new file index.php
+ new index file
+  new index file
