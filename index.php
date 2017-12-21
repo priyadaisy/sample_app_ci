@@ -4,3 +4,4 @@ echo "index.php"
 echo "new index file"
   new index file
   new index file
+  new index file
