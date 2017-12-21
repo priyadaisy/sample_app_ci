@@ -1,6 +1,6 @@
 <?php
 
-/*
+/*index
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
  APPLICATION ENVIRONMENT
