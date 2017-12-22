@@ -7,6 +7,10 @@ echo "new index file"
   new index file
   new index file
   new index file
+  new index file
+  new index file
+  new index file
+  new index file
   echo "new index file"
     echo "new index file"
   new index file
