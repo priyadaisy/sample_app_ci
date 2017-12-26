@@ -8,6 +8,7 @@ The part\_one folder contains a plain old PHP/MySQL project utilizing the CodeIg
 
 Read More: [A Sample CodeIgniter Application with Login and Session](http://ericterpstra.com/2013/03/a-sample-codeigniter-application-with-login-and-session/ "Part One Blog Link")
  
+## Part Two 
 ## Part Two
 Part Two
 Part Tworead
