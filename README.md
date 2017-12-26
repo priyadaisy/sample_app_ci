@@ -5,7 +5,7 @@
 ## Part One
 ## Part One
 The part\_one folder contains a plain old PHP/MySQL project utilizing the CodeIgniter framework. Styling is provided by Twitter Bootstrap.  The application uses the default Session plugin provided by CodeIgniter.
-
+Twitter Bootstrap.  The 
 Read More: [A Sample CodeIgniter Application with Login and Session](http://ericterpstra.com/2013/03/a-sample-codeigniter-application-with-login-and-session/ "Part One Blog Link")
  
 ## Part Two 
