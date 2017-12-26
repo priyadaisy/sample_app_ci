@@ -51,6 +51,7 @@ $db['default']['database'] = 'cisock'; //or use the database name you chose, if 
 Once that is done, you should be able to navigate your browser to the /part_one/ directory and see the login screen.
 
 ### Database 
+### Database 
 
 username = india_dba
 password = 47u|(3y=I@k
