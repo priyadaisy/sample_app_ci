@@ -1,6 +1,7 @@
 #CodeIgniter + Socket.IO (with Redis) Sample Project
 
-
+## Part One
+## Part One
 ## Part One
 ## Part One
 The part\_one folder contains a plain old PHP/MySQL project utilizing the CodeIgniter framework. Styling is provided by Twitter Bootstrap.  The application uses the default Session plugin provided by CodeIgniter.
