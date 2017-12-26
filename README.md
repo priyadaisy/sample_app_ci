@@ -51,3 +51,4 @@ FLUSH PRIVILEGES;
 checking for git pull
 checking for git pull 1
 checking for git pull 2
+checking for git pull after adding worktree
