@@ -21,6 +21,11 @@ Read More: [Live Updates in CodeIgniter with Socket.IO and Redis](http://ericter
 
 The front end of the application uses Twitter Bootstrap for styling and layout, jQuery for client-side interactivity, PHP and CodeIgniter for most of the functionality, and MySQL for data storage. This is a fairly common toolset that runs on most L/W/M/AMP-style environment stacks. The code available on GitHub has everything you need to run the app yourself, provided you have a web server, MySQL, and PHP 5.3 or greater.
 
+
+## Part_one -- The Setup
+
+The front end of the application uses Twitter Bootstrap for styling and layout, jQuery for client-side interactivity, PHP and CodeIgniter for most of the functionality, and MySQL for data storage. This is a fairly common toolset that runs on most L/W/M/AMP-style environment stacks. The code available on GitHub has everything you need to run the app yourself, provided you have a web server, MySQL, and PHP 5.3 or greater.
+
 You’ll need to create a database (preferably called ‘cisock’), and then import cisock.sql in the root of the ‘partOne’ folder in the repository. You can do this with the following command from the command line (be sure to change ‘yourusername’ and ‘/path/to/’ to match your local setup):
 
 mysql -u yourusername -p -h localhost cisock < /path/to/cisock.sql
